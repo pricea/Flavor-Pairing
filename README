@@ -1,0 +1,17 @@
+Note: this is isn't finished yet. It works kind of the way I want it to, but it
+isn't efficient at all.
+
+Little Python program to suggest new flavor pairings, given what the user says
+they already like.
+Uses a text file of flavor pairs the user likes together, in the following
+form:
+
+flavorX - flavorY
+flavorA - flavorB
+etc...
+
+The program prompts the user to enter a flavor, and based on the text file
+guesses what flavors they might like paired with the one they entered. The
+algorithm is based on this simple idea: if you say you like apple and
+cranberry together and cranberry and almond together, that probably makes you
+more likely to like apple and almond together.
